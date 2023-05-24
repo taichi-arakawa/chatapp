@@ -16,6 +16,7 @@ public class client {
       // 氏名入力
       System.out.print("NAME>");
       String name = keyboard.readLine();
+      writer.println("give me logs");
 
       Thread clientThread = new Thread(() -> {
         while (true) {
